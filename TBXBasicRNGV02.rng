@@ -4,11 +4,10 @@
    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="">
    <!-- Schema generated from ODD source 2008-11-12T22:47:41.423-05:00. Modified from
 TBX_RNGV02.rng file for TBX-Basic by Kara Warburton on November 19, 2008. 
-Last updated on January 26, 2009 to allow a context sentence to occur in a descripGrp.
-Address all enquiries to kara@ca.ibm.com-->
+Last updated on October 2013 to change contact information.
+Address all enquiries to akmtrg@gmail.com-->
    <!-- This is the integrated Relax NG schema file for the TBX-Basic Terminology Markup Language.-->
-   <!-- This file is also available from the following Web site: http://www.lisa.org/fileadmin/standards/tbx_basic/TBXBasicRNGV02.rng-->
-   <!-- This file is controlled by LISA. If you make any changes to this file, you must change the file name.-->
+   <!-- This file is also available from the following Web site: https://github.com/byutrg/TBX-Spec/blob/master/TBX-Basic/Validation/TBXBasicRNGV02.rng-->
    <!-- Note: in order to enable validation of language codes used in the xml:lang attribute of the <langSet> elements, you must declare the languages that
       are used in your TBX-Basic document instance as shown on line 422. -->
 
@@ -846,8 +845,9 @@ Address all enquiries to kara@ca.ibm.com-->
             <rng:value>XCSURI</rng:value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The URI
                of the XCS file that constrains the content of the TBX document instance. You can
-               point to a local copy of the XCS file, or you can point to the copy on the LISA Web
-               site (http://www.lisa.org/fileadmin/standards/tbx_basic/TBXBasicXCSV02.XCS). Note: if
+               point to a local copy of the XCS file, or you can point to a copy on GitHub
+               (https://raw.github.com/byutrg/TBX-Spec/master/TBX-Basic/Validation/TBXBasicRNGV02.rng) or
+			   elsewhere. Note: if
                you are using the Relax NG schema for validation, the XCS file is not used. However,
                to comply with the TBX standard (ISO 30042), a TBX-Basic document instance must have
                an XCS file for reference purposes.</a:documentation>

@@ -15,7 +15,7 @@ two lines, and comment-out the DOCTYPE statement on line 2.-->
 		<fileDesc>
 			<sourceDesc>
 				<p>This is a sample TBX-Basic file from the LISA Terminology Special Interest Group
-					(www.lisa.org/term). The entries in this file are for demonstration purposes
+					(now dissolved). The entries in this file are for demonstration purposes
 					only and do not reflect actual terminology data. Any references to real
 					companies are fabricated for demonstration purposes only.</p>
 			</sourceDesc>
@@ -47,8 +47,8 @@ two lines, and comment-out the DOCTYPE statement on line 2.-->
 				</transacGrp>
 				<note>This is a sample entry with some data categories at the entry level. </note>
 				<ref type="crossReference" target="c2">unscheduled operation</ref>
-				<xref type="externalCrossReference" target="http://www.lisa.org">LISA Web site</xref>
-				<xref type="xGraphic" target="http://www.lisa.org/logo.gif">LISA logo</xref>
+				<xref type="externalCrossReference" target="wikipedia.org">Wikipedia web site</xref>
+				<xref type="xGraphic" target="http://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg">Wikipedia logo</xref>
 				<langSet xml:lang="en">
 					<tig>
 						<term>scheduled operation</term>
@@ -105,8 +105,7 @@ two lines, and comment-out the DOCTYPE statement on line 2.-->
 						<comment>This is a sample entry with some data categories at the term or
 							language level</comment>
 						<ref type="crossReference" target="c1">scheduled operation</ref>
-						<xref type="externalCrossReference" target="http://www.lisa.org">LISA Web
-							Site </xref>
+						<xref type="externalCrossReference" target="wikipedia.org">Wikipedia web site</xref>
 					</tig>
 				</langSet>
 			</termEntry>

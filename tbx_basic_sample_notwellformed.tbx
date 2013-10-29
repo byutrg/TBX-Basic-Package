@@ -13,16 +13,16 @@ two lines, and comment-out the DOCTYPE statement on line 2.-->
 <martif type="TBX-Basic" xml:lang="en-US" >
 	<martifHeader>
 		<fileDesc>
-			<sourceDesc><p>This is a sample TBX-Basic file from the LISA Terminology Special Interest Group 
-			(www.lisa.org/term). The entries in this file are for demonstration purposes only and do not 
-			reflect actual terminology data. Any references to real companies are fabricated for demonstration 
+			<sourceDesc><p>This is a sample TBX-Basic file from the LISA Terminology Special Interest Group
+			(now dissolved). The entries in this file are for demonstration purposes only and do not
+			reflect actual terminology data. Any references to real companies are fabricated for demonstration
 			purposes only.</p>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 <p type='XCSURI'>TBXBasicXCSV02.xcs
 </p>
-		</encodingDesc> 
+		</encodingDesc>
   	</martifHeader>
 <text>
 <body>
@@ -32,7 +32,7 @@ two lines, and comment-out the DOCTYPE statement on line 2.-->
 		<descripGrp>
      	<descrip type="definition">This is a sample definition at the entry level.</descrip>
      	<admin type="source">Terminology SIG</admin>
-    </descripGrp>  
+    </descripGrp>
     <transacGrp>
 			<transac type="transactionType">origination</transac>
 			<transacNote type="responsibility" target="US5001">Jane</transacNote>
@@ -45,9 +45,9 @@ two lines, and comment-out the DOCTYPE statement on line 2.-->
 		</transacGrp>
 		<note>This is a sample entry with some data categories at the entry level.
 		</note>
-		<ref type="crossReference" target="c2">unscheduled operation</ref> 
-		<xref type="externalCrossReference" target="http://www.lisa.org">LISA Web site</xref>
-		<xref type="xGraphic" target="http://www.lisa.org/logo.gif">LISA logo</xref>
+		<ref type="crossReference" target="c2">unscheduled operation</ref>
+		<xref type="externalCrossReference" target="wikipedia.org">Wikipedia web site</xref>
+    <xref type="xGraphic" target="http://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg">Wikipedia logo</xref>
         <langSet xml:lang="en">
             	<tig>
                   	<term>scheduled operation</term>
@@ -56,7 +56,7 @@ two lines, and comment-out the DOCTYPE statement on line 2.-->
                    	<termNote type="grammaticalGender">masculine</termNote>
                    	<termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
                    	<termNote type="geographicalUsage">Canada</termNote>
-										<termNote type="termLocation">menuItem</termNote>                               
+										<termNote type="termLocation">menuItem</termNote>
                    	<descripGrp>
 										<descrip type="context">One hour is required between scheduled operations.</descrip>
 										<admin type="source">Tivoli Storage Manager Administrator's Guide</admin>
@@ -75,7 +75,7 @@ until the first error is corrected. -->
     <langSet xml:lang="en">
 		<descrip type="definition">This is a sample definition at the language level. This one has no source information required therefore it is 		not embedded in a descripGrp.</descrip>
          		<tig>
-                  	<term>unscheduled operation</term>                                   
+                  	<term>unscheduled operation</term>
                   	<termNote type="termType">fullForm</termnote>
                   	<termNote type="grammaticalGender">masculine</termNote>
                   	<termNote type="administrativeStatus">admittedTerm-admn-sts</termNote>
@@ -100,8 +100,8 @@ until the first error is corrected. -->
 			<date>2007-07-23</date>
 		</transacGrp>
 		<note>This is a sample entry with some data categories at the	term or language level</note>
-		<ref type="crossReference" target="c1">scheduled operation</ref> 
-		<xref type="externalCrossReference" target="http://www.lisa.org">LISA Web Site </xref>
+		<ref type="crossReference" target="c1">scheduled operation</ref>
+		<xref type="externalCrossReference" target="wikipedia.org">Wikipedia web site</xref>
               	</tig>
          	</langSet>
     	</termEntry>
@@ -121,7 +121,7 @@ until the first error is corrected. -->
             <item type="email">john_smith@mymail.com</item>
             <item type="role">inputter</item>
         </refObject>
-  </refObjectList> 
+  </refObjectList>
 
 </back>
 </text>

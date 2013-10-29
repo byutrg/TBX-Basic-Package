@@ -21,8 +21,8 @@ two lines, and comment-out the DOCTYPE statement on line 2.-->
 					companies are fabricated for demonstration purposes only.</note>
 			</titleStmt>
 			<sourceDesc>
-				<p>This is a sample TBX-Basic file from the LISA Terminology Special Interest Group
-					(www.lisa.org/term). Address any enquiries to kara@ca.ibm.com.</p>
+				<p>This is a sample TBX-Basic file from the Translation Research Group (tbxconvert.gevterm.net).
+				Address any enquiries to akmtrg@gmail.com.</p>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -75,7 +75,7 @@ both highly recommended for the localization industry.-->
 			</termEntry>
 
 			<!-- The following is a more complex trilingual entry that shows multiple English synonyms, with
-usage status values to differentiate their usage, as well as term type values, grammatical gender, 
+usage status values to differentiate their usage, as well as term type values, grammatical gender,
 and a definition with a source at the concept level.
 -->
 
@@ -155,8 +155,8 @@ a cross reference between them. The first entry contains a link to a graphic fil
 				</transacGrp>
 				<note>This is a sample entry with some data categories at the entry level. </note>
 				<ref type="crossReference" target="c2">unscheduled operation</ref>
-				<xref type="externalCrossReference" target="http://www.lisa.org">LISA Web site</xref>
-				<xref type="xGraphic" target="http://www.lisa.org/logo.gif">LISA logo</xref>
+				<xref type="externalCrossReference" target="wikipedia.org">Wikipedia web site</xref>
+				<xref type="xGraphic" target="http://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg">Wikipedia logo</xref>
 				<langSet xml:lang="en">
 					<tig>
 						<term>scheduled operation</term>
@@ -211,8 +211,7 @@ a cross reference between them. The first entry contains a link to a graphic fil
 						<note>This is a sample entry with some data categories at the term or
 							language level</note>
 						<ref type="crossReference" target="c1">scheduled operation</ref>
-						<xref type="externalCrossReference" target="http://www.lisa.org">LISA Web
-							Site </xref>
+						<xref type="externalCrossReference" target="wikipedia.org">Wikipedia web site</xref>
 					</tig>
 				</langSet>
 			</termEntry>
