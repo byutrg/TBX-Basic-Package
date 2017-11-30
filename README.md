@@ -35,4 +35,4 @@ http://sourceforge.net/projects/tbxutil/
 
 As an alternative to using the TBX Checker to validate TBX-Basic files, you can use
 the Integrated RNG Schema and any off-the-shelf XML validator that supports the RelaxNG
-and Schematron anguages, such as oXygen.
+and Schematron languages, such as oXygen.
