@@ -1,11 +1,13 @@
 # TBX-Basic Download Package
 
-This download package will be updated regularly. 
+This download package will be updated regularly.
 
-Last update: November 28, 2017.
+Last update: June 12, 2018.
 
 ## Recent changes:
 
+* June 12, 2018 - Updated to include change in TBX-Basic:
+    * *REPLACED* /crossReference/ is not /relatedConcept/ and /relatedTerm/
 * November 27, 2017 - Updated the package to conform to newest draft of ISO 30042:
     * *REMOVED (obsolete)* TBXBasiccoreStructureV02.dtd
     * *REMOVED (obsolete)* TBX-Basic specification
